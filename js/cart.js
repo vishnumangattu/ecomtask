@@ -51,7 +51,7 @@ function displayCartItems(){
   </tr>
   <tr>
     <td><p>Delivery charge:  </p></td>
-  <td><p><span style="color: rgb(64, 218, 30);;">Free</span></p></td>
+  <td><p><span style="color: rgb(44, 153, 20);;">Free</span></p></td>
     
   </tr>
   <tr>
@@ -59,7 +59,7 @@ function displayCartItems(){
     <td><h4> $${tam}</h4></td>
   </tr>
 </table>
-  <h4 style="color: rgb(64, 218, 30); text-shadow:.5px .5px 1px black;">you will saved $${dis} on this order</h4>
+  <h4 style="color: rgb(46, 151, 22);">you will saved $${dis} on this order</h4>
 </div>`
   document.getElementById("cart-rate").innerHTML=vkr;
 

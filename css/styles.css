@@ -58,6 +58,7 @@ height: 40px;
 }
 .filtercontainer
 {
+  
   width: 100%;
   display: flex;
   justify-content: end;
@@ -81,7 +82,7 @@ height: 40px;
     display: flex;
     margin: 10px 30px;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 20px;
       position: relative;
       gap: 20px;
       padding-bottom: 35px;
@@ -89,16 +90,20 @@ height: 40px;
   }
   .men-card{
     box-shadow: rgba(66, 65, 65, 0.35) 0px 5px 15px;
+
+    border-radius: 10px;
     padding: 20px 20px;
     width: 250px;
     padding-bottom: 40px;
+    transition: 0.4s;
+    overflow-x: hidden;
   }
   .men-card a{
     text-decoration: none;
     text-decoration-color:black;
   }
   .men-card:hover{
-   background-color: rgba(227, 232, 186, 0.593);
+    transform: scale(1.05);
   }
   .category{
     color: grey;
