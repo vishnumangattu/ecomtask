@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+  width: 100%;
+}
+.heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(25, 50, 212);
+  color: white;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.heading img{
+width:30px;
+}
+.right
+{
+  display: flex;
+}
+.right img{
+width: 40px;
+height: 40px;
+}
+.cart-logo{
+  padding-right: 20px;
+ margin-right: 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.heading h2{
+  margin-left: 10px;
+  font-size: 35px
+}
+
+#search{
+  padding: 8px 8px;
+  border-radius: 100px;
+  width: 30%;
+  height: 4vh;
+  border: none;
+  margin-top: 5px;
+  background-image: url(../images/search\ logo.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding-left: 20px;
+  background-position:left;
+  background-position-x: 50px;
+  text-align: center;
+}
+.filtercontainer
+{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 10px;
+}
+.filtercontainer label
+{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.filtercontainer select
+{
+ height: 3vh;
+ min-width: 10%;
+}
+::-webkit-scrollbar {
+    width: 1px; 
+    scrollbar-width:thin;
+}
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0e3051; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+
+::-webkit-scrollbar-thumb:horizontal {
+    border: 4px solid transparent;
+    background-clip: content-box;
+}
+
+.mainpro
+{
+  width: 100%;
+  height: 100vh;
+}
+.prodiv
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.procontainer
+{
+    width:80%;
+    height: 60vh;
+    box-sizing: border-box;
+    box-shadow:  rgba(0, 0, 0, 0.40) 0px 5px 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 10fr;
+    gap: 10px;
+}
+.thumbnail
+{
+    background-color: blue;
+    border-radius: 10px;
+}
+.proimage
+{
+    background-color: bisque;
+    border-radius: 10px;
+    height: 100%;
+}
+.procontent
+{
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.proimage img
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .product{
+  margin-top: 20px;
+  width: 90%;
+  height: 80vh;
+
+  position: relative;
+  box-shadow:  rgba(0, 0, 0, 0.40) 0px 5px 15px;
+  border-radius: 10px;
+
+}
+.pro-cards{
+position: absolute;
+top: 2%;
+left: 1%;
+}
+.pro-card{
+  width: 4rem;
+  height: 4rem;
+
+  margin: 10px;
+  box-shadow:  rgba(0, 0, 0, 0.40) 0px 5px 15px;
+
+
+}
+
+.pro-card img{
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+}
+
+.pro-pic{
+  height: 28rem;
+  width: 20rem;
+  position: absolute;
+  background-color: rgba(243, 236, 236, 0.6);
+  top: 3%;
+  left: 9%;
+
+  border-radius: 10px;
+
+}
+.pro-pic img{
+  width: 25rem;
+  width: 20rem;
+}
+
+.pro-content{
+  position: absolute;
+width: 80%;
+  top: 4%;
+  left: 35%;
+  margin-left: 20px;
+}
+.pro-btn{
+  border: none;
+  background-color: rgb(18, 104, 18);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.last-btn1{
+  border: none;
+  background-color: orange;
+  padding: 15px 40px;
+  margin-left: 25px;
+  font-weight: bolder;
+  border-radius: 6px;
+ 
+ 
+}
+.last-btn2{
+  border: none;
+  background-color: rgb(241, 80, 5);
+  padding: 15px 40px;
+  margin-left: 15px;
+  font-weight: bolder;
+color: white;
+  border-radius: 6px;
+
+} */

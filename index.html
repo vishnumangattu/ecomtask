@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+ <div class="main">
+  <div class="heading" >
+    <div class="right">
+      <a href="./index.html">
+    <img src="./images/shopping-basket-icon-7475.png" alt=""></a>
+    <h2>E COMMERCE</h2>
+  </div>
+  <input type="search" placeholder=" Search for products " id="search" > 
+    <div  class="search-input">
+      
+      <a href="./pages/cart.html"><span class="cart-logo"><i class="fa-solid fa-cart-shopping"></i></span></a>
+      <a href=""><span class="cart-logo"><i class="fas fa-user account-icon"></i></span></a>
+    </div>
+    
+  </div>
+   <div class="filtercontainer">
+      <label for="">Filter :</label>
+      <select name="" id="filterfor" onchange="filter()">
+        <option value="">Choose ...</option>
+      </select>
+   </div>
+    <div class="men-cards" id="products">
+   
+          
+      </div>
+
+ </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
